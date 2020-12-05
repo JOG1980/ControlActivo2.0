@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-hola mundo ControlActivo 2.0 con JSP
-ya con git
+holas
 </body>
 </html>
