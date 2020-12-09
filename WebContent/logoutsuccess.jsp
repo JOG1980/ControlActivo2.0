@@ -7,10 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	//el redirect funciona con la referencia de struts
-    String redirectURL = "login";
-    response.sendRedirect(redirectURL);
-%>
+
+<hr/>  
+You are successfully logged out!
+
 </body>
 </html>

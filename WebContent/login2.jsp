@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<%@ taglib uri="/struts-tags" prefix="s" %>  
 <html>
 <head>
 	<meta http-equiv="cache-control" content="max-age=0" />
@@ -81,51 +80,7 @@
 
 
 					
-				</form> 
-				
-	<!-- 
-	
-	<s:form action="loginprocess" class="login100-form validate-form">  
-	<span class="login100-form-title">
-		Datos de Acceso
-	</span>
-	<div class="wrap-input100 validate-input" data-validate = "Usuario invalido">
-		<s:textfield name="username" class="input100" placeholder="Usuario"></s:textfield>
-		<span class="focus-input100"></span>
-		<span class="symbol-input100">
-			<i class="fa fa-user-circle-o" aria-hidden="true"></i>
-		</span>  
-	</div>
-	
-	<div class="wrap-input100 validate-input" data-validate = "El Password es requerido">
-		<s:password name="userpass" class="input100" placeholder="Password"></s:password>  
-		<span class="focus-input100"></span>
-		<span class="symbol-input100">
-			<i class="fa fa-lock" aria-hidden="true"></i>
-		</span>
-	</div>
-	
-	<div class="container-login100-form-btn">
-		<s:submit class="login100-form-btn" value="login"></s:submit>  
-	</div>
-
-		<div style="text-align: right; padding-top: 30px; font-size: 10px;">
-			<span>
-				versión 2.00 (build 2020-12-05)
-			</span>
-		</div>
-
-</s:form> 
-	 -->			
-   
-<s:form action="loginprocess">  
-<s:textfield name="username" label="Name"></s:textfield>  
-<s:password name="userpass" label="Password"></s:password>  
-<s:submit value="login"></s:submit>  
-</s:form>  
-
-
-				
+				</form>
 			</div>
 		</div>
 	

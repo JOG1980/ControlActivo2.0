@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	//el redirect funciona con la referencia de struts
-    String redirectURL = "login";
-    response.sendRedirect(redirectURL);
-%>
+
+<hr/>  
+<%@ taglib uri="/struts-tags" prefix="s" %>  
+  
+<br/>Welcome, <s:property value="username"/>  
+
 </body>
 </html>

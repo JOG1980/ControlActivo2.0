@@ -7,10 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	//el redirect funciona con la referencia de struts
-    String redirectURL = "login";
-    response.sendRedirect(redirectURL);
-%>
+
+Sorry username or password error!  
+<jsp:include page="login.jsp"></jsp:include>  
+
 </body>
 </html>
